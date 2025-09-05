@@ -1,0 +1,5 @@
+
+test_names = ['hrnet48']
+test_result_paths = ['output/test_s1_48_256/test_result.csv']
+
+

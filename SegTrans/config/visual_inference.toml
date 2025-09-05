@@ -1,0 +1,11 @@
+
+image_size = [512,512]
+test_result_path = 'output/test_s1_48_256/test_result.csv'
+pretrain_load_dir = 'output/train_s1_48_256'
+pretrain_load_prefix = '400'
+model = 'hrnet48'
+
+[dataset_config]
+data_root = 'data'
+preload = false
+

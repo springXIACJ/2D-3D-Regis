@@ -1,0 +1,19 @@
+
+image_size = [512, 512]
+
+[data_module_config]
+train_data_root = 'segmented/'
+test_data_root = 'testdata/'
+training_batch_size = 16
+preload = true
+debug = false
+
+[trainer_config]
+n_epoch = 500
+model = 'hrnet48'  # 48, 32, 18
+lr = 1e-4
+weight_decay = 1e-4
+log_visual_every_n_epoch = 10
+log_model_hist_every_n_epoch = 10
+test_every_n_epoch = 10
+save_model_every_n_epoch = 100
